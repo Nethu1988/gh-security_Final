@@ -77,6 +77,6 @@ jobs:
           bucket: gh-test-bucket-aws
           dist-folder: ./dist
           # bucket-region: us-east-2
-      - name: Output information
+      - name: Output information URL
         run: |
           echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
